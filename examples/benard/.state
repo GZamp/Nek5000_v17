@@ -1,0 +1,6 @@
+SOURCE_ROOT=/home/caronte/UrbanFlows/fromRicardo/Nek5000_framework
+FC=mpif77
+FFLAGS=-std=legacy -fallow-argument-mismatch -O2 -fdefault-real-8 -fdefault-double-8 -cpp
+CC=mpicc
+CFLAGS=-std=legacy
+PPLIST= MPI UNDERSCORE TIMER
